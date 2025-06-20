@@ -24,7 +24,16 @@ export default {
         sans: ["Inter", "system-ui", "sans-serif"],
       },
       colors: {
-        // Classical 19th century palette
+        // Modern bright palette for literary website
+        literary: {
+          primary: "#6366f1", // bright indigo
+          secondary: "#ec4899", // bright pink
+          accent: "#f59e0b", // amber
+          dark: "#1e293b", // slate-800
+          light: "#f8fafc", // slate-50
+          sage: "#10b981", // emerald-500
+        },
+        // Classical 19th century palette (keeping for compatibility)
         classical: {
           navy: "#1e293b",
           gold: "#d4af37",

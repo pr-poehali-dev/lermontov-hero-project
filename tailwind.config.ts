@@ -19,10 +19,19 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ["Merriweather", "serif"],
-        heading: ["Montserrat", "sans-serif"],
+        serif: ["Playfair Display", "Cormorant Garamond", "serif"],
+        heading: ["Playfair Display", "serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       colors: {
+        // Classical 19th century palette
+        classical: {
+          navy: "#1e293b",
+          gold: "#d4af37",
+          cream: "#faf8f5",
+          burgundy: "#800020",
+          sage: "#9caf88",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
